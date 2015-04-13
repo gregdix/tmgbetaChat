@@ -1,20 +1,27 @@
 Bit6 Cordova Demo App
 ---------------------
-[![GitHub version](https://badge.fury.io/gh/bit6%2Fbit6-cordova.svg)](https://github.com/bit6/bit6-cordova-demo)
-
 This project demonstrates the full functionality of [Bit6 Cordova Plugin](https://github.com/bit6/bit6-cordova).
 
-### Usage
-* Get the API Key at [Bit6 Dashboard](https://dashboard.bit6.com).
-* Create a new telerik project by cloning  this repo.
+<a href="https://platform.telerik.com/#appbuilder/clone/https%3A%2F%2Fgithub.com%2Fbit6%2FBit6-DemoApp.git" target="_blank"><img src="http://docs.telerik.com/platform/appbuilder/sample-apps/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in AppBuilder" /></a>
 
-* Edit `config.xml` to set your app id - replace `com.bit6.samples.DemoApp` with your app id
-  (note: iOS APN requires unique bundle id).
-* Set your Bit6 API Key in `js/index.js`
+### Prerequisites
+* Get the API Key at [Bit6 Dashboard](https://dashboard.bit6.com).
+
+### Installation
+* Create a new AppBuilder project by cloning this repo.
+
+### Configuration
+1. Set [App ID](http://docs.telerik.com/platform/appbuilder/code-signing-your-app/code-sign-glossary#application-identifier) for your app.
+
+2. Specify your Bit6 API Key in [js/index.js](js/index.js#L19)
   ```js
   {'apikey': 'yourApiKey'}
   ```
 
-* Enable push plugin in the plugins list.
+3. Enable PushPlugin in AppBuilder. 
 
-* Build, download and deploy to your device.
+### Running the app
+Build and deploy to an iOS or Android device.
+
+### Push notifications
+Push Notification support is required for receiving incoming calls and messages. See [Bit6 Plugin](https://github.com/bit6/bit6-cordova) for configuration information.
