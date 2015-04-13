@@ -11,14 +11,14 @@ This project demonstrates the full functionality of [Bit6 Cordova Plugin](https:
 * Create a new AppBuilder project by cloning this repo.
 
 ### Configuration
-1. Set [App ID](http://docs.telerik.com/platform/appbuilder/code-signing-your-app/code-sign-glossary#application-identifier) for your app.
+1. Set [App ID](http://docs.telerik.com/platform/appbuilder/code-signing-your-app/code-sign-glossary#application-identifier) for your app: `Project Navigator > Properties > General`
 
 2. Specify your Bit6 API Key in [js/index.js](js/index.js#L19)
   ```js
   {'apikey': 'yourApiKey'}
   ```
 
-3. Enable PushPlugin in AppBuilder. 
+3. Enable PushPlugin: `Project Navigator > Properties > Plugins`. Scroll to `Other Plugins`, check `PushPlugin`.
 
 4. [Configure](https://github.com/bit6/bit6-cordova#push-notifications) push notification support.
 
