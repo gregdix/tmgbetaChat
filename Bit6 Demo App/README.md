@@ -20,8 +20,7 @@ This project demonstrates the full functionality of [Bit6 Cordova Plugin](https:
 
 3. Enable PushPlugin in AppBuilder. 
 
+4. [Configure](https://github.com/bit6/bit6-cordova#push-notifications) push notification support.
+
 ### Running the app
 Build and deploy to an iOS or Android device.
-
-### Push notifications
-Push Notification support is required for receiving incoming calls and messages. See [Bit6 Plugin](https://github.com/bit6/bit6-cordova) for configuration information.
