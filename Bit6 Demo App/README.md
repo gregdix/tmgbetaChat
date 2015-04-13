@@ -1,5 +1,5 @@
-Bit6 Cordova Demo App
----------------------
+Bit6 Demo App for Telerik AppBuilder
+------------------------------------
 This project demonstrates the full functionality of [Bit6 Cordova Plugin](https://github.com/bit6/bit6-cordova).
 
 <a href="https://platform.telerik.com/#appbuilder/clone/https%3A%2F%2Fgithub.com%2Fbit6%2FBit6-DemoApp.git" target="_blank"><img src="http://docs.telerik.com/platform/appbuilder/sample-apps/images/try-in-appbuilder.png" alt="Try in AppBuilder" title="Try in AppBuilder" /></a>
