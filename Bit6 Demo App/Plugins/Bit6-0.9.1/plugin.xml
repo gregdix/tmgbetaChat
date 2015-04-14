@@ -11,8 +11,6 @@
         <engine name="cordova-ios" version=">=3.0.0" />
     </engines>
 
-    <!--Open in release version. <dependency id="com.phonegap.plugins.PushPlugin" url="https://github.com/Telerik-Verified-Plugins/PushNotification" /> -->
-
     <js-module src="www/phonertc.js" name="PhoneRTC">
     </js-module>
 
