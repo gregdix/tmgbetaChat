@@ -138,7 +138,10 @@ function initPushService(b6) {
     b6.session.on('auth', function() {
         // When Bit6 auth is done, we should have Android GCM senderId
         if (plat == 'and') {
-            // TODO: check that all the values exist
+            // TODO: check that all the values exist, showing the alert for now
+            if (b6.session.config.gcm === undefined) {
+                alert("There will be errors as long as you don't enable GCM push notifications for this app.");
+            }
             var gcmSenderId = b6.session.config.gcm.senderId;
             console.log('GCM senderId=' + gcmSenderId);
             var opts = {

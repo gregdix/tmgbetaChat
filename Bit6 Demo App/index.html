@@ -9,10 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 
     <script>
-      window.onerror = function(a,b,c) {
-        alert(a);
-        alert(b);
-        alert(c);
+      window.onerror = function(err, file, linenr) {
+        alert("Script error caught: " + err + ", " + file + ", " + linenr);
       }
     </script>
     <title>Bit6 Demo 0.9.1</title>
