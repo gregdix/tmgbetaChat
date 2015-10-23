@@ -6,7 +6,7 @@
   "DisplayName": "Bit6 Demo App",
   "Author": "Telerik",
   "Description": "Bit6 Demo App",
-  "BundleVersion": "1.0",
+  "BundleVersion": "1.0.1",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
     "1",
