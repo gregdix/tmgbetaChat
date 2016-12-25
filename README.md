@@ -18,11 +18,14 @@ Demo for [Bit6 Cordova Plugin](https://github.com/Telerik-Verified-Plugins/Bit6)
   ```js
   {'apikey': 'yourApiKey'}
   ```
+  
 3. Call and real time notifications
- To enable call support on iOS add iosrtc plugin from plugin marketplace
- To enable call support on Android < 5 add Crosswalk Webview plugin and set WebView to Crosswalk in Project Properties->Android->General.
 
- Also, for real time notifications(websocket) on Android<4.4 Crosswalk Webview is required too.
+   To enable call support on iOS add iosrtc plugin from plugin marketplace.
+
+   To enable call support on Android < 5 add Crosswalk Webview plugin and set WebView to Crosswalk in Project Properties->Android->General.
+
+   Also, for real time notifications(websocket) on Android<4.4 Crosswalk Webview is required too.
 
 4. [Configure](https://github.com/bit6/bit6-cordova#push-notifications) push notification support.
 
