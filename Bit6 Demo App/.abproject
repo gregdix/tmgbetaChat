@@ -3,7 +3,7 @@
   "ProjectGuid": "b1a39186-177f-4686-945b-c63cc6633023",
   "projectVersion": 1,
   "AppIdentifier": "com.telerik.plugindemo.bit6",
-  "DisplayName": "Ezi-Chat",
+  "DisplayName": "TMGChat",
   "Author": "Telerik",
   "Description": "Bit6 Demo App",
   "BundleVersion": "1.0.2",
