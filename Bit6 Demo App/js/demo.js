@@ -957,6 +957,7 @@ function initApp(b6, keepLoggedIn) {
         console.log('Phone call clicked');
         // For this demo, call a helpdesk of a well-known store
         startPhoneCall('+18004663337');
+        
     });
 
     // Key down event in compose input field

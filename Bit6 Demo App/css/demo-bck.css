@@ -5,8 +5,7 @@ body {
         background-image: url(http://datasat.co.za/demo/bit6/images/chattreebck.png);
     background-size: cover;
     */
-    
-    background-color: #90b50f;
+    background-color: #f1f1f1;
 }
 
 html, body, .fh {
@@ -63,16 +62,13 @@ html, body, .fh {
 }
 
 .chats > div {
-    padding: 5px 15px;
+    padding: 6px 6px;
     color: #666;
-    border-left: 10px solid rgba(44, 159, 243, 0.9215686274509803);
+    border: 1px solid transparent;
     clear: both;
     cursor: pointer;
-    margin-bottom: 5px;
-    width: 95%;
-    border-radius: 0px 0px 10px 0px;
-    background-color: rgba(255, 255, 255, 0.37);
-    border-bottom: 1px solid #ffffff;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
 }
 
 
@@ -96,18 +92,18 @@ html, body, .fh {
 }
 
 .chats span {
-    display: block;
-    float: left;
-    padding-left: 10px;
-    font-size: 0.9em;
-    color: ##272727;
+  display: block;
+  float: left;
+  padding-left: 10px;
+  font-size: 0.9em;
+  color: #aaa;
 }
 
 .chats em {
   display: block;
   text-align: right;
   font-size: 0.8em;
-  color: #fff;
+  color: #ccc;
 }
 
 .chats strong > b {
@@ -156,13 +152,13 @@ html, body, .fh {
 }
 
 #msgComposeRow {
-    background-color: rgba(245, 245, 245, 0.011764705882352941);
-    margin: 0px;
-    padding: 15px 0;
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+  background-color: #f5f5f5;
+  margin: 0px;
+  padding: 10px 0;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
 }
 
 .msgs > div {
@@ -173,37 +169,25 @@ html, body, .fh {
     margin: 3px 10px;
 }
 
-    .msgs > div.me {
+.msgs > div.me {
         text-align: right;
+        border-color: #ddd;
         float: right;
         clear: both;
-        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
-        background: rgba(255, 255, 255, 0.07058823529411765);
-        display: inline-block;
-        line-height: 1.45em;
-        border-radius: 3px;
-        padding: 6px 12px;
-        font-size: 16px;
-        max-width: 80%;
-        min-width: 44px;
-        min-height: 12px;
-        margin: .5em .5em;
+        background-color: #dcf5c7;
+        border: 1px solid #fff;
+        box-shadow: 1px 1px 1px #00000047;
+        border-radius: 7px;
     }
-    .msgs > div.other {
+ .msgs > div.other {
+        background-color: #fbfbfb;
         text-align: left;
+        border-color: #fdf7f7;
         float: left;
         clear: both;
-        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.4);
-        background: rgba(247, 247, 247, 0.4);
-        display: inline-block;
-        line-height: 1.45em;
-        border-radius: 3px;
-        padding: 6px 12px;
-        font-size: 16px;
-        max-width: 80%;
-        min-width: 44px;
-        min-height: 12px;
-        margin: .5em .5em;
+        border-radius: 7px;
+        border: 2px solid #fff;
+        box-shadow: 1px 1px 1px #0000001c;
     }
 
 .msgs span {
@@ -211,9 +195,9 @@ html, body, .fh {
 }
 
 .msgs em, .msgs i {
-    display: block;
-    font-size: 0.8em;
-    color: #e6e6e6;
+  display: block;
+  font-size: 0.8em;
+  color: #ccc;
 }
 
 .msgs > div.me i {
@@ -264,15 +248,16 @@ a.thumb img {
 }
 
 #videoContainer.simple > .local {
-  max-width: 30%;
-  max-height: 30%;
+  max-width: 100%;
+  max-height: 60%;
   position: absolute;
   top: 0px;
+  left:0px;
   right: 0px;
   border-left: 1px solid #fff;
   border-bottom: 1px solid #fff;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 60%;
 }
 
 #videoContainer.grid > video {

@@ -2,6 +2,20 @@
 <cordova>
     <access origin="http://127.0.0.1*"/> <!-- allow local pages -->
     <access origin="*"/>
+   
+    <access origin="http://*" />
+    <access origin="https://*" />
+    <access launch-external="yes" origin="tel:*" />
+    <access launch-external="yes" origin="geo:*" />
+    <access launch-external="yes" origin="mailto:*" />
+    <access launch-external="yes" origin="sms:*" />
+    <access launch-external="yes" origin="market:*" />
+    <allow-intent href="*" />
+
+   
+    <allow-navigation href="http://cordova.apache.org/*" />
+   <allow-navigation href="http://datasat.co.za/*" />
+
 
     <content src="index.html" />
 
@@ -13,7 +27,7 @@
     <feature name="App">
         <param name="android-package" value="org.apache.cordova.App" />
     </feature>
-
+   
     <!-- For projects that target Apache Cordova 3.0 and later, comment out or delete the <plugins></plugins> block and its contents. -->
     <plugins>
         <plugin name="App" value="org.apache.cordova.App"/>
